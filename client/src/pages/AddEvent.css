@@ -1,0 +1,54 @@
+.prayer-request-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #ffe0b2;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.prayer-request-container h2 {
+  text-align: center;
+  color: #800000;
+  margin-bottom: 25px;
+}
+
+.prayer-request-form label {
+  font-weight: bold;
+  color: #5b0e0e;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.prayer-request-form input,
+.prayer-request-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fffdf8;
+  font-size: 1rem;
+}
+
+.prayer-request-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.prayer-request-form button {
+  width: 100%;
+  background-color: #9b1c1c;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.prayer-request-form button:hover {
+  background-color: #b71c1c;
+}

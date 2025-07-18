@@ -1,0 +1,40 @@
+.about-temple {
+  padding:  -10px 20px ;
+  background-color: #fff7f0;
+  padding-bottom: 25px;
+}
+
+.section-title {
+  color: #800000;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+.about-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  max-width: 600px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+}
