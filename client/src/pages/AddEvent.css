@@ -1,17 +1,42 @@
 .prayer-request-container {
-  max-width: 600px;
-  margin: 40px auto;
-  background-color: #ffe0b2;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://t4.ftcdn.net/jpg/00/67/89/29/360_F_67892955_kbvL7bB4vtteVhyPsgPhDqEMkRXxizRI.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
 }
 
-.prayer-request-container h2 {
+/* Title Box */
+.prayer-request-title-box {
+  background-color: rgba(255, 248, 235, 0.95);
+  padding: 25px 40px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
   text-align: center;
-  color: #800000;
-  margin-bottom: 25px;
+}
+
+.prayer-request-title-box h2 {
+  margin: 0;
+  font-size: 32px;
+  color: #7c160b;
+  font-family: 'Georgia', serif;
+}
+
+/* Form Box */
+.prayer-request-form-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  max-width: 600px;
+  width: 90%;
 }
 
 .prayer-request-form label {
@@ -19,17 +44,18 @@
   color: #5b0e0e;
   display: block;
   margin-bottom: 6px;
+  font-size: larger;
 }
 
 .prayer-request-form input,
 .prayer-request-form textarea {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   margin-bottom: 20px;
   border-radius: 8px;
-  border: 1px solid #ccc;
-  background-color: #fffdf8;
+  border: 1px solid #c4b59d;
   font-size: 1rem;
+  background-color: #fffef9;
 }
 
 .prayer-request-form textarea {
@@ -45,8 +71,9 @@
   padding: 12px;
   border-radius: 8px;
   font-size: 1rem;
+  font-weight: bold;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background 0.3s;
 }
 
 .prayer-request-form button:hover {

@@ -17,15 +17,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 70px;
-}
-
-.about-image {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  border-radius: 15px;
-  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  gap: 25px;
 }
 
 .about-text {
@@ -37,4 +29,19 @@
 
 .about-text p {
   margin-bottom: 15px;
+}
+
+.image-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px; /* smaller width to match text height */
+}
+
+.about-image,
+.about-image-small {
+  width: 80%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
